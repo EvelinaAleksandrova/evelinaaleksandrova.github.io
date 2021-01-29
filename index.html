@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Beauty Salon</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+<header>
+    <div class="img-container-logo-pic">
+        <img alt="logo" src="images/logo.png">
+    </div>
+    <div class="navigation-header">
+    <nav>
+        <ul class="nav_links">
+            <li><a href="#procedures">Procedures</a></li>
+            <li><a href="#offers">Offers</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+    </nav>
+    </div>
+</header>
+<br>
+<br>
+<h2 style="text-align:center">Procedures</h2>
+<div class="procedures">
+    <div class="card">
+        <img src="images/lash-extensions.png" alt="Lash-Extensions" style="width:100%">
+        <h1>Lash Extensions</h1>
+        <p class="price">$35.00</p>
+        <p>Eyelash extensions are a cosmetic application used to improve the length, curl,
+            fullness and thickness of natural lashes.</p>
+        <br>
+    </div>
+
+    <div class="card">
+        <img src="images/skinClean.jpg" alt="Skin-Treatment" style="width:100%">
+        <h1>Skin Treatment</h1>
+        <p class="price">$60.00</p>
+        <p>Our cosmetic care for the skin of the face, neck and décolleté is suitable for all skin types:
+            normal skin, dry skin, as well as for oily and acne-prone facial skin.</p>
+        <br>
+    </div>
+    <div class="card">
+        <img src="images/eyebrow.jpg" alt="Eyebrow-Cleaning" style="width:100%">
+        <h1>Eyebrow Cleaning</h1>
+        <p class="price">$17.00</p>
+        <p>Our cosmetic centers employ people with many years of experience in this field who know
+            how to shape the eyebrows according to the shape of the face.</p>
+        <br>
+    </div>
+
+
+    <div class="card">
+        <img src="images/hair-styling.jpg" alt="Hair-Styling" style="width:100%">
+        <h1>Hair Styling</h1>
+        <p class="price">$45.00</p>
+        <p>Whether you want to get some new looks into rotation, or just want to try a different
+            hairstyle for a special occasion, we have all the inspiration you need.</p>
+        <br>
+    </div>
+    <div class="card">
+        <img src="images/nails-care.jpg" alt="Nails-Care" style="width:100%">
+        <h1>Nails Care</h1>
+        <p class="price">$28.00</p>
+        <p>Nail art is a creative way to paint, decorate, enhance, and embellish the nails</p>
+        <br>
+    </div>
+    <div class="card">
+        <img src="images/proffesional-make-up.png" alt="Make-Up" style="width:100%">
+        <h1> Makeup</h1>
+        <p class="price">$55.00</p>
+        <p>We offer different types of makeup: wedding, prom, daily and evening.</p>
+        <br>
+    </div>
+</div>
+
+<div class="offers-outer-container">
+<div id="offers" class="offers">
+    <div class="container-offers">
+        <h3>
+            <img  class="logo-offers" alt="logo" src="images/logo-crop-offers.png">
+        </h3>
+    </div>
+    <img src="images/crop-offers.png" alt="image-offers" style="width:100%;">
+    <div class="container-offers" style="background-color:white">
+        <h1><b>20% OFF YOUR PURCHASE</b></h1>
+         <br>
+        <p>A hydrating, glow-boosting daily regimen that includes the JLo Beauty cleanser, serum, moisturizer,
+            and complexion booster in the shade warm bronze—your go-to glow staples.</p>
+    </div>
+      <br>
+    <div class="container-offers">
+        <h3>Use Promo Code: <span class="promo">JLO Beauty</span></h3>
+        <br>
+        <p class="expire">Expires: 28 February 2021</p>
+    </div>
+</div>
+</div>
+<div id="reviews" class="reviews-container">
+
+    <div class="review">
+        <q>Thanks to the team of Beauty Studio for their incredible professionalism!</q>
+        <p class="author">- Isabella Murphy </p>
+    </div>
+
+    <div class="review">
+        <q>Beauty Studio is a place where you can separate from the world and all your problems, the team is very well
+            trained and transports you to another world of relaxation and makes you look and feel really wonderful.
+            I strongly recommend it!</q>
+        <p class="author">- Joanne Smith</p>
+    </div>
+    <div class="review">
+        <q>I have recently been a client of the salon and I would say that it is one of the best salons.
+            Good service, positive and capable team and good value for money. I recommend it, it's worth it!</q>
+        <p class="author">- Lauren Roberts</p>
+    </div>
+    <div class="review">
+        <q>I have been a client for more than 5 years and I can say one thing for sure:
+            the salon cares above all about quality service!</q>
+        <p class="author">- Emily O'Neill</p>
+    </div>
+
+           <!--function plusSlides-->
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<div class="dot-container">
+
+<!--    function currentSlide-->
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+</div>
+
+
+<div id="contact-us" class="container-contact-us">
+    <div  style="text-align:center">
+        <br>
+        <br>
+        <h1>Contact Us</h1>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img src="images/central-pic.jpg" alt="central pic" style="width:100%">
+        </div>
+        <div class="column">
+            <form >
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="Bulgaria">Bulgaria</option>
+                    <option value="USA">United States</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <br>
+    <a class="fa fa-facebook" href="https://www.facebook.com/" target="html_code"></a>
+    <a class="fa fa-instagram" href="https://www.instagram.com/" target="html_code"></a>
+    <a class="fa fa-twitter" href="https://www.twitter.com/" target="html_code"></a>
+</div>
+</body>
+</html>

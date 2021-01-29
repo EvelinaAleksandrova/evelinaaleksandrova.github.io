@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+/*----------------------------logo-pic-------------------*/
+.img-container-logo-pic {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+body {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 20%, rgba(202, 193, 226, 1) 76%);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+/*---------------------------navigation-bar----------------------*/
+header {
+    margin: 0 auto;
+}
+
+li, a {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_links {
+    text-align: center;
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+.nav_links, li, a {
+    transition: all 0.3s 0s;
+}
+
+.nav_links, li, a:hover {
+
+    color: blueviolet;
+}
+/*----------------------------Procedures-------------*/
+.procedures{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 1em;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: center;
+    font-family: arial;
+    margin: 1em;
+
+}
+.price {
+    color: #c39ce9;
+    font-size: 22px;
+}
+/*--------------------------------offers----------------------*/
+.offers-outer-container{
+    background: transparent;
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+.offers {
+    border: 5px inset #c7a0f3;
+    width: 80%;
+    border-radius: 15px;
+    margin: 0 auto;
+    max-width: 600px;
+    font-family: Montserrat, sans-serif;
+}
+
+.container-offers {
+    padding: 2px 16px;
+    background-color: #ffffff;
+}
+
+.promo {
+    background: #d1bff5;
+    padding: 3px;
+}
+
+.expire {
+    color: #fc0808;
+}
+
+/*--------------------------------------REVIEWS------------------------------*/
+* {
+    box-sizing: border-box
+}
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+/* ------reviews container---- */
+.reviews-container {
+    position: relative;
+    background: #f1f1f1f1;
+}
+/* -------reviews------ */
+.review {
+    display: none;
+    padding: 80px;
+    text-align: center;
+}
+/* -------next and previous buttons----- */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 16px;
+    color: #ab78db;
+    font-weight: bold;
+    font-size: 20px;
+    /*top-left  top-right  bottom-right  bottom-left*/
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+/* ------next button to the right------ */
+.next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgb(174, 120, 224);
+    color: white;
+}
+
+/* ----------dot container------- */
+.dot-container {
+    margin-bottom: 3em;
+    text-align: center;
+    padding: 20px;
+    background: #9468ba;
+}
+/* ------dots---- */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #684392;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+/* -------background color of active dot---- */
+.active, .dot:hover {
+    background-color: #f4e9ff;
+}
+q {
+    font-style: italic;
+}
+.author {
+    color:#8034ab ;
+}
+/*------------------------------contact us form------------------*/
+* {
+    box-sizing: border-box;
+}
+/* ------Style inputs---- */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #8034ab;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #9468ba;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #9468ba;
+}
+/*----style container-contact us ----- */
+.container-contact-us {
+    border-radius: 3px;
+    background-color: #9468ba;
+    padding: 10px;
+}
+/* ------ two columns that float next to each other----- */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 70px;
+    padding: 20px;
+}
+/* ------Clear floats after the columns---- */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*-----------------------------------------scroll-bar--------------------------*/
+/*---Firefox---*/
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #af93de #dfd0e7;
+}
+/*--------------------------------------------footer---------------------*/
+.footer {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 20%, rgba(202, 193, 226, 1) 76%);
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+/*----------------------------------------icons-----------------------*/
+.fa {
+    padding: 20px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+    background: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-right: 1em;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin-left: 1em;
+}
+
+.fa-instagram {
+    background: deeppink;
+    color: white;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack
+on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+    .nav_links{
+        display: flex;
+        flex-direction: column;
+    }
+}
